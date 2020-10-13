@@ -140,19 +140,34 @@
   #define Z_CS_PIN         40
 #endif
 
-#define E0_STEP_PIN        26
-#define E0_DIR_PIN         28
-#define E0_ENABLE_PIN      24
+#define E0_STEP_PIN        6 // Kasper - limbo was 26
+#define E0_DIR_PIN         5 // kasper - limbo was 28
+#define E0_ENABLE_PIN      4 // kasper - limbo was 24
 #ifndef E0_CS_PIN
   #define E0_CS_PIN        42
 #endif
 
-#define E1_STEP_PIN        36
-#define E1_DIR_PIN         34
-#define E1_ENABLE_PIN      30
+#define E1_STEP_PIN        6
+#define E1_DIR_PIN         5
+#define E1_ENABLE_PIN      4
 #ifndef E1_CS_PIN
   #define E1_CS_PIN        44
 #endif
+
+#define X2_STEP_PIN         26 //Kasper E0
+#define X2_DIR_PIN          28
+#define X2_ENABLE_PIN       24
+#ifndef X2_CS_PIN
+  #define X2_CS_PIN         53
+#endif
+
+#define Y2_STEP_PIN         36 //Kasper E1
+#define Y2_DIR_PIN          34
+#define Y2_ENABLE_PIN       30
+#ifndef Y2_CS_PIN
+  #define Y2_CS_PIN         49
+#endif
+
 
 //
 // Temperature Sensors
