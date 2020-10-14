@@ -716,8 +716,8 @@
  * Override with M92
  *                                      X, Y, Z, E0 [, E1[, E2[, E3[, E4[, E5]]]]]
  */
-#define DEFAULT_AXIS_STEPS_PER_UNIT   { 200, 200, 4535.44, 200 }
-
+//#define DEFAULT_AXIS_STEPS_PER_UNIT   { 200, 200, 4535.44, 200 } // Kasper - MPC w/threaded rod # 1/32 steps
+#define DEFAULT_AXIS_STEPS_PER_UNIT   { 200, 200, 2267.72, 200 } // Kasper - MPC w/threaded rod @1/16 steps
 /**
  * Default Max Feed Rate (mm/s)
  * Override with M203
