@@ -635,7 +635,7 @@
   #define DELTA_PRINTABLE_RADIUS 70.0     // (mm)
 
   // Center-to-center distance of the holes in the diagonal push rods.
-  #define DELTA_DIAGONAL_ROD 216.0        // (mm) 216 original
+  #define DELTA_DIAGONAL_ROD 206.28        // (mm) 216 original
 
   // Distance between bed and nozzle Z home position
   #define DELTA_HEIGHT 266.9             // (mm) Get this value from G33 auto calibrate
@@ -878,7 +878,7 @@
  *
  * See https://github.com/synthetos/TinyG/wiki/Jerk-Controlled-Motion-Explained
  */
-#define S_CURVE_ACCELERATION
+//#define S_CURVE_ACCELERATION
 
 //===========================================================================
 //============================= Z Probe Options =============================
